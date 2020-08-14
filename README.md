@@ -4,7 +4,7 @@
 	+ Xây dựng trang web giới thiệu về nhà hàng
 	<br />Giao diện bắt chước theo layout của https://stackshare.io/
 + Các công cụ dùng:
-	- Xây dựng giao diện: HTML4, CSS3, SCSS, JavaScript, Bootstrap 4, jQuery(nếu cần thiết) (Hiện tại đang chưa biết dùng thêm thư viện gì nhưng tạm thời là vậy)
+	- Xây dựng giao diện: **HTML4, CSS3, SCSS, JavaScript, Bootstrap 4, jQuery**(nếu cần thiết) (Hiện tại đang chưa biết dùng thêm thư viện gì nhưng tạm thời là vậy)
 	Bao gồm các file:	(Tạm thời là vậy)	<br/>
 		**index.html**	<br/>
 		**style.css**	<br/>
