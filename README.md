@@ -9,7 +9,8 @@
 		**index.html**	<br/>
 		**style.css**	<br/>
 		**style.scss**	<br/>
-		**script.js**
+		**script.js**	<br/>
+		**server.json**
 	- Lưu trữ dữ liệu bằng: Json -  server (Hướng dẫn:	https://github.com/typicode/json-server	)
 + Lưu trữ project trên Github:		https://github.com/HeartOfAutumn/ThreeBananasRestaurant
  
