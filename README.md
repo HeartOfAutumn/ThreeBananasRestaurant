@@ -5,13 +5,13 @@
 	<br />Giao diện bắt chước theo layout của https://stackshare.io/
 + Các công cụ dùng:
 	- Xây dựng giao diện: HTML4, CSS3, SCSS, JavaScript, Bootstrap 4, jQuery(nếu cần thiết) (Hiện tại đang chưa biết dùng thêm thư viện gì nhưng tạm thời là vậy)
-	Bao gồm các file:	(Tạm thời là vậy)
-		index.html
-		style.css
-		style.scss
-		script.js
+	Bao gồm các file:	(Tạm thời là vậy)	<br/>
+		**index.html**	<br/>
+		**style.css**	<br/>
+		**style.scss**	<br/>
+		**script.js**
 	- Lưu trữ dữ liệu bằng: Json -  server (Hướng dẫn:	https://github.com/typicode/json-server	)
-+ Lưu trữ project: Github	(Lâu không Git remote lại phải coi lại :D )
++ Lưu trữ project trên Github:		https://github.com/HeartOfAutumn/ThreeBananasRestaurant
  
 * Dự kiến:
 + Ngày 1 - 2 (Thứ 6, 7 ngày 14-15/08/2020): Coi lại kiến thức về JavaScript và Bootstrap trên w3schools.com
@@ -30,7 +30,7 @@ Lịch trình sẽ có sự điều chỉnh cho phù hợp với thực tiễn (
 nâng cao đạo đức code dạo, bồi dưỡng tư tưởng tập thể, tinh thần đoàn kết, tính tổ chức và kỷ luật. Phải đi sâu đi sát thực tế, gần gũi với coder, 
 thật sự tôn trọng và phát huy quyền làm chủ tập thể của code. Phải cố gắng học tập, rèn luyện, nâng cao trình độ hiểu biết để làm tốt mọi nhiệm vụ.)
 
-Ký tên: Tổng giám đốc Ngô Minh Thu - Keep it simple stupid (KISS)
+Ký tên: Tổng giám đốc **Ngô Minh Thu** - Keep it simple stupid (KISS)
 
 
 	
