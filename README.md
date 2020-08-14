@@ -6,16 +6,16 @@
 + Các công cụ dùng:
 	- Xây dựng giao diện: **HTML4, CSS3, SCSS, JavaScript, Bootstrap 4, jQuery** (nếu cần thiết) (Hiện tại đang chưa biết dùng thêm thư viện gì nhưng tạm thời là vậy)
 	Bao gồm các file:	(Tạm thời là vậy)	<br/>
-		**index.html**	<br/>
-		**style.css**	<br/>
-		**style.scss**	<br/>
-		**script.js**	<br/>
-		**server.json**
-	- Lưu trữ dữ liệu bằng: Json -  server (Hướng dẫn:	https://github.com/typicode/json-server	)	<br/>
+		**index.html**	:heavy_check_mark:	<br/>
+		**style.css**	:heavy_check_mark:	<br/>
+		**style.scss**	:heavy_check_mark:	<br/>
+		**script.js**	:heavy_check_mark:	<br/>
+		**server.json**	:heavy_check_mark:	
+	- Lưu trữ dữ liệu bằng: Json -  server (Hướng dẫn:	https://github.com/typicode/json-server	) :heavy_check_mark:	<br/> 
 		Sử dụng lệnh:	<br/>
 			`npm install -g json-server` để cài đặt package json-server		<br/>
 			`json-server server.json` để chạy server
-+ Lưu trữ project trên Github:		https://github.com/HeartOfAutumn/ThreeBananasRestaurant
++ Lưu trữ project trên Github:		https://github.com/HeartOfAutumn/ThreeBananasRestaurant		:heavy_check_mark:
  
 * Dự kiến:
 	+ **Ngày 1 - 2 (Thứ 6, 7 ngày 14-15/08/2020)**: Coi lại kiến thức về JavaScript và Bootstrap trên w3schools.com		<br/>
@@ -27,7 +27,7 @@
 		4. Bài tập về Bootstrap 4:	(Cái này không có bài tập chắc vừa làm vừa coi luôn :D)
 		5. Xây dựng layout bằng BS4	Cái này chắc không cần giải thích.
 		6. Đi lấy dữ liệu về:		Chưa biết lấy dữ liệu ở đâu cho đẹp :D nên tạm thời cứ để đó
-		7. Tìm hiểu cách lưu API trên json-server (fake REST API)
+		7. Tìm hiểu cách lưu API trên json-server (fake REST API)	:heavy_check_mark:
 	+ **Ngày 3 - 5 (Thứ 7, CN, 2 ngày 16-18/08/2020)**: Tiến hành xây dụng trang web chính thức.
 
 Lịch trình sẽ có sự điều chỉnh cho phù hợp với thực tiễn (Lý luận phải đi đôi với thực tiễn, là coder chúng ta phải phải kiên quyết quét sạch chủ nghĩa cá nhân, 
