@@ -2,7 +2,7 @@
 2:12 PM 8/14/2020
 * Kế hoạch:
 	+ Xây dựng trang web giới thiệu về nhà hàng
-	Giao diện bắt chước theo layout của https://stackshare.io/
+	<br />Giao diện bắt chước theo layout của https://stackshare.io/
 + Các công cụ dùng:
 	- Xây dựng giao diện: HTML4, CSS3, SCSS, JavaScript, Bootstrap 4, jQuery(nếu cần thiết) (Hiện tại đang chưa biết dùng thêm thư viện gì nhưng tạm thời là vậy)
 	Bao gồm các file:	(Tạm thời là vậy)
