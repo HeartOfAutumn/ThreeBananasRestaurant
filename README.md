@@ -13,8 +13,8 @@
 		**server.json**
 	- Lưu trữ dữ liệu bằng: Json -  server (Hướng dẫn:	https://github.com/typicode/json-server	)	<br/>
 		Sử dụng lệnh:	<br/>
-			+ `npm install -g json-server`
-			+ `json-server server.json` để chạy server.
+			`npm install -g json-server` để cài đặt package json-server
+			`json-server server.json` để chạy server
 + Lưu trữ project trên Github:		https://github.com/HeartOfAutumn/ThreeBananasRestaurant
  
 * Dự kiến:
