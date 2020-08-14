@@ -11,7 +11,7 @@
 		style.scss
 		script.js
 	- Lưu trữ dữ liệu bằng: Json -  server (Hướng dẫn:	https://github.com/typicode/json-server	)
-+Lưu trữ project: Github	(Lâu không Git remote lại phải coi lại :D )
++ Lưu trữ project: Github	(Lâu không Git remote lại phải coi lại :D )
  
 * Dự kiến:
 + Ngày 1 - 2 (Thứ 6, 7 ngày 14-15/08/2020): Coi lại kiến thức về JavaScript và Bootstrap trên w3schools.com
