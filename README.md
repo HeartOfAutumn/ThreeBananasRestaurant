@@ -11,7 +11,10 @@
 		**style.scss**	<br/>
 		**script.js**	<br/>
 		**server.json**
-	- Lưu trữ dữ liệu bằng: Json -  server (Hướng dẫn:	https://github.com/typicode/json-server	)
+	- Lưu trữ dữ liệu bằng: Json -  server (Hướng dẫn:	https://github.com/typicode/json-server	)	<br/>
+		Sử dụng lệnh:
+			+ `npm install -g json-server`
+			+ `json-server server.json` để chạy server.
 + Lưu trữ project trên Github:		https://github.com/HeartOfAutumn/ThreeBananasRestaurant
  
 * Dự kiến:
