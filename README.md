@@ -18,7 +18,7 @@
 + Lưu trữ project trên Github:		https://github.com/HeartOfAutumn/ThreeBananasRestaurant
  
 * Dự kiến:
-+ **Ngày 1 - 2 (Thứ 6, 7 ngày 14-15/08/2020)**: Coi lại kiến thức về JavaScript và Bootstrap trên w3schools.com
++ **Ngày 1 - 2 (Thứ 6, 7 ngày 14-15/08/2020)**: Coi lại kiến thức về JavaScript và Bootstrap trên w3schools.com		<br/>
 	Cụ thể:
 	- Coi lý thuyết và làm hết tất các ví dụ của JavaScript và Bootstrap trên w3schools.com bao gồm:
 	1. Lý thuyết về JavaScript:	https://www.w3schools.com/js/default.asp
