@@ -5,12 +5,12 @@
 	<br />Giao diện bắt chước theo layout của https://stackshare.io/
 + Các công cụ dùng:
 	- Xây dựng giao diện: **HTML4, CSS3, SCSS, JavaScript, Bootstrap 4, jQuery** (nếu cần thiết) (Hiện tại đang chưa biết dùng thêm thư viện gì nhưng tạm thời là vậy)
-	Bao gồm các file:	(Tạm thời là vậy)	<br/>
-		**index.html**	:heavy_check_mark:	<br/>
-		**style.css**	:heavy_check_mark:	<br/>
-		**style.scss**	:heavy_check_mark:	<br/>
-		**script.js**	:heavy_check_mark:	<br/>
-		**server.json**	:heavy_check_mark:	
+	Bao gồm các file:	(Tạm thời là vậy)	:heavy_check_mark:	<br/>
+		**index.html**		<br/>
+		**style.css**		<br/>
+		**style.scss**		<br/>
+		**script.js**		<br/>
+		**server.json**		
 	- Lưu trữ dữ liệu bằng: Json -  server (Hướng dẫn:	https://github.com/typicode/json-server	) :heavy_check_mark:	<br/> 
 		Sử dụng lệnh:	<br/>
 			`npm install -g json-server` để cài đặt package json-server		<br/>
