@@ -18,17 +18,17 @@
 + Lưu trữ project trên Github:		https://github.com/HeartOfAutumn/ThreeBananasRestaurant
  
 * Dự kiến:
-+ **Ngày 1 - 2 (Thứ 6, 7 ngày 14-15/08/2020)**: Coi lại kiến thức về JavaScript và Bootstrap trên w3schools.com		<br/>
+	+ **Ngày 1 - 2 (Thứ 6, 7 ngày 14-15/08/2020)**: Coi lại kiến thức về JavaScript và Bootstrap trên w3schools.com		<br/>
 	Cụ thể:
-	- Coi lý thuyết và làm hết tất các ví dụ của JavaScript và Bootstrap trên w3schools.com bao gồm:
-	1. Lý thuyết về JavaScript:	https://www.w3schools.com/js/default.asp
-	2. Bài tập về JavaScript:	https://www.w3schools.com/js/exercise_js.asp
-	3. Lý thuyết về Bootstrap 4:	https://www.w3schools.com/bootstrap4/default.asp
-	4. Bài tập về Bootstrap 4:	(Cái này không có bài tập chắc vừa làm vừa coi luôn :D)
-	5. Xây dựng layout bằng BS4	Cái này chắc không cần giải thích.
-	6. Đi lấy dữ liệu về:		Chưa biết lấy dữ liệu ở đâu cho đẹp :D nên tạm thời cứ để đó
-	7. Tìm hiểu cách lưu API trên json-server (fake REST API)
-+ **Ngày 3 - 5 (Thứ 7, CN, 2 ngày 16-18/08/2020)**: Tiến hành xây dụng trang web chính thức.
+		- Coi lý thuyết và làm hết tất các ví dụ của JavaScript và Bootstrap trên w3schools.com bao gồm:
+		1. Lý thuyết về JavaScript:	https://www.w3schools.com/js/default.asp
+		2. Bài tập về JavaScript:	https://www.w3schools.com/js/exercise_js.asp
+		3. Lý thuyết về Bootstrap 4:	https://www.w3schools.com/bootstrap4/default.asp
+		4. Bài tập về Bootstrap 4:	(Cái này không có bài tập chắc vừa làm vừa coi luôn :D)
+		5. Xây dựng layout bằng BS4	Cái này chắc không cần giải thích.
+		6. Đi lấy dữ liệu về:		Chưa biết lấy dữ liệu ở đâu cho đẹp :D nên tạm thời cứ để đó
+		7. Tìm hiểu cách lưu API trên json-server (fake REST API)
+	+ **Ngày 3 - 5 (Thứ 7, CN, 2 ngày 16-18/08/2020)**: Tiến hành xây dụng trang web chính thức.
 
 Lịch trình sẽ có sự điều chỉnh cho phù hợp với thực tiễn (Lý luận phải đi đôi với thực tiễn, là coder chúng ta phải phải kiên quyết quét sạch chủ nghĩa cá nhân, 
 nâng cao đạo đức code dạo, bồi dưỡng tư tưởng tập thể, tinh thần đoàn kết, tính tổ chức và kỷ luật. Phải đi sâu đi sát thực tế, gần gũi với coder, 
