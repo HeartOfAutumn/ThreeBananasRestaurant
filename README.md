@@ -28,8 +28,8 @@
 		5. Xây dựng layout bằng BS4	Cái này chắc không cần giải thích.
 		6. Đi lấy dữ liệu về:		Chưa biết lấy dữ liệu ở đâu cho đẹp :D nên tạm thời cứ để đó
 		7. Tìm hiểu cách lưu API trên json-server (fake REST API)	:heavy_check_mark:
-		8. Lý thuyết về jQuery		https://www.w3schools.com/jquery/default.asp
-		9. Bài tập về jQuery		https://www.w3schools.com/jquery/jquery_quiz.asp
+		8. Lý thuyết về jQuery		https://www.w3schools.com/jquery/default.asp		:heavy_check_mark:
+		9. Bài tập về jQuery		https://www.w3schools.com/jquery/jquery_quiz.asp	:heavy_check_mark:
 	+ **Ngày 3 - 5 (Thứ 7, CN, 2 ngày 16-18/08/2020)**: Tiến hành xây dụng trang web chính thức.
 
 Lịch trình sẽ có sự điều chỉnh cho phù hợp với thực tiễn (Lý luận phải đi đôi với thực tiễn, là coder chúng ta phải phải kiên quyết quét sạch chủ nghĩa cá nhân, 
