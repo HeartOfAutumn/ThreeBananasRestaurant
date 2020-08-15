@@ -2,7 +2,7 @@
 2:12 PM 8/14/2020
 * Kế hoạch:
 	+ Xây dựng trang web giới thiệu về nhà hàng
-	<br />Sử dụng theme boostrap free
+	<br />Sử dụng theme boostrap free:	https://colorlib.com/wp/free-bootstrap-ecommerce-website-templates/#bootstrap-ecommerce
 + Các công cụ dùng:
 	- Xây dựng giao diện: **HTML4, CSS3, SCSS, JavaScript, Bootstrap 4, jQuery** (Hiện tại đang chưa biết dùng thêm thư viện gì nhưng tạm thời là vậy)
 	Bao gồm các file:	(Tạm thời là vậy)	:heavy_check_mark:	<br/>
