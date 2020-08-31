@@ -1,0 +1,29 @@
+@media (max-width: 576px)
+{
+    header{
+        nav{
+            position: absolute;
+            width: 100%;
+            // height: calc(100vh - 50px);
+            background: rgba(0, 0, 0, .03);
+            top: 50px;
+            left: -100%;
+            transition: 0.5s;
+            ul{
+                display: block;
+                text-align: center;
+                li{
+                    a{
+                        border-bottom: 1px solid rgba(0, 0, 0, .2);
+                    }
+                }
+            }
+            &.active{ // Chỗ này chưa hiểu sao thêm dấu "&" lại được ?
+                left: 0;
+            }
+        }
+        .menu-toggle{
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,80 @@
+$font-primary: 'Poppins',Arial, sans-serif;
+$font-secondary: 'Lora',Georgia, serif;
+$font-tertiary: 'Amatic SC',cursive;
+
+$white: #fff;
+$black: #000000;
+// $darken: #3a4348;
+
+$primary: #82ae46;
+$secondary: #ffe6eb;
+
+$color-1: #e4b2d6;
+$color-2: #dcc698;
+$color-3: #a2d1e1;
+$color-4: #dcd691;
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+header{
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // padding: 0 100px;
+    background: transparent;
+    // width: 100%;
+    // box-sizing: border-box;
+    .logo{
+        color: $primary;
+        height: 50px;
+        line-height: 50px;
+        font-size: 24px;
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    nav{
+        float: right;
+        ul{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            li{
+                list-style: none;
+                a{
+                    height: 50px;
+                    line-height: 50px;
+                    padding: 0 20px;
+                    color: rgba(0, 0, 0, 0.5);
+                    text-decoration: none;
+                    display: block;
+                    &:hover, &.active{
+                        color: $white;
+                        background: $primary;
+                    }
+                }
+            }
+        }
+    }
+    .menu-toggle{
+        color: rgba(0, 0, 0, 0.5);
+        float: right;
+        line-height: 50px;
+        font-size: 24px;
+        cursor: pointer;
+        display: none;
+    }
+}
+
+
+// Import file "responsive"
+@import "responsive";
