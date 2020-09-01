@@ -32,9 +32,7 @@ img{
 
 header{
     background: transparent;
-    .hide{
-        transform: translateY(-100%);
-    }
+    min-height: 50px;
     .logo{
         color: $primary;
         height: 50px;
@@ -164,14 +162,16 @@ main{
             display: flex;
             justify-content: center;
             ul{
-                display: flex;
+                // display: flex;
+                flex-wrap: wrap;
                 margin-bottom: 10px;
                 li{
+                    text-align: center;
                     list-style: none;
                     background-color: transparent;
                     color: $primary;
                     padding:8px 20px;
-                    margin: 5px;
+                    // margin: 5px;
                     letter-spacing: 1px;
                     cursor: pointer;
                     &.active{

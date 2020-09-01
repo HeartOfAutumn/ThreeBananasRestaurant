@@ -16,9 +16,7 @@ img {
 
 header {
   background: transparent;
-}
-header .hide {
-  transform: translateY(-100%);
+  min-height: 50px;
 }
 header .logo {
   color: #82ae46;
@@ -146,15 +144,15 @@ main #products .category {
   justify-content: center;
 }
 main #products .category ul {
-  display: flex;
+  flex-wrap: wrap;
   margin-bottom: 10px;
 }
 main #products .category ul li {
+  text-align: center;
   list-style: none;
   background-color: transparent;
   color: #82ae46;
   padding: 8px 20px;
-  margin: 5px;
   letter-spacing: 1px;
   cursor: pointer;
 }
