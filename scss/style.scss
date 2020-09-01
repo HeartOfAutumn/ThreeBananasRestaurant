@@ -32,6 +32,9 @@ img{
 
 header{
     background: transparent;
+    .hide{
+        transform: translateY(-100%);
+    }
     .logo{
         color: $primary;
         height: 50px;
@@ -141,7 +144,7 @@ main{
                     transform: rotateY(0deg);
                     transform-origin: right;
                     img{
-                        animation: animate 40s linear infinite;
+                        animation: animateForSlider 40s linear infinite;
                     }
                 }
                 }
@@ -153,10 +156,132 @@ main{
         height: calc(100vh - 50px);
         overflow: hidden;
     }
+
+    #products{
+        min-height: 100vh;
+        padding-top: 10px;
+        .category{
+            display: flex;
+            justify-content: center;
+            ul{
+                display: flex;
+                margin-bottom: 10px;
+                li{
+                    list-style: none;
+                    background-color: transparent;
+                    color: $primary;
+                    padding:8px 20px;
+                    margin: 5px;
+                    letter-spacing: 1px;
+                    cursor: pointer;
+                    &.active{
+                        background-color: $primary;
+                        color: $white;
+                    }
+                }
+            }
+        }
+        .card{
+            // &:nth-child(n){
+            //     margin: 10px;
+            // }
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border: 1px solid #f0f0f0;
+            .imgBx{
+                overflow: hidden;
+                img:hover{
+                    transition: transform 0.5s;
+                    transform: scale(1.2);
+                }
+            }
+            .contentBx{
+                text-align: center;
+                line-height: 2;
+                padding: 10px;
+                h3{
+                    text-transform: uppercase;
+                }
+                .price{
+                    .price-real{
+                        text-decoration: line-through;
+                    }
+                    .price-sale{
+                        color: $primary;
+                    }
+                }
+            }
+            .buy{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                // min-height: 100vh;
+                padding: 10px;
+                background-color: transparent;
+                ul{
+                    position: relative;
+                    display: flex;
+                    li{
+                        list-style: none;
+                        label{
+                            position: relative;
+                            input[type="checkbox"]{
+                                position: absolute;
+                                opacity: 0;
+                                cursor: pointer;
+                                &:checked ~ .icon{
+                                    box-shadow: inset 0px 0px 2px rgba(255, 255, 255, 0.05),
+                                                inset 4px 4px 6px rgba(0, 0, 0, 0.2); 
+                                };
+                                &:checked ~ .icon .fa{
+                                    color: #00f3ff;
+                                    text-shadow: 0 0 15px #00f3ff,
+                                                 0 0 25px #00f3ff;
+                                    animation: animateGlowingCheckbox 5s linear infinite;
+                                }
+                            }
+                            .icon{
+                                position: relative;
+                                width: 40px;
+                                height: 40px;
+                                background-color: $primary;
+                                color: $white;
+                                font-size: 15px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                cursor: pointer;
+                                margin: 0 10px;
+                                border-radius: 50%;
+                                overflow: hidden;
+                                box-shadow: -1px -1px 4px rgba(255, 255, 255, 0.05),
+                                            4px 4px 6px rgba(0, 0, 0, 0.2),
+                                            inset -1px -1px 4px rgba(255, 255, 255, 0.05),
+                                            inset 1px 1px 1px rgba(0, 0, 0, 0.1);
+                                &::before{
+                                    content: "";
+                                    position: absolute;
+                                    top: 2px;
+                                    left: 2px;
+                                    width: calc(100%  - 5px);
+                                    height: calc(50% - 2px);
+                                    border-top-left-radius: 8px;
+                                    border-top-right-radius: 8px;
+                                    background: rgba(255, 255, 255, 0.05);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 
-@keyframes animate
+@keyframes animateForSlider
 {
     0%{
         transform: scale(1);
@@ -166,6 +291,16 @@ main{
     }
     100%{
         transform: scale(1);
+    }
+}
+
+@keyframes animateGlowingCheckbox
+{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
     }
 }
 
