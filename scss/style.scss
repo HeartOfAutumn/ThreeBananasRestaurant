@@ -25,14 +25,13 @@ $color-4: #dcd691;
     box-sizing: border-box;
 }
 
+img{
+    width: 100%;
+    height: 100%;
+}
+
 header{
-    // position: absolute;
-    // top: 0;
-    // left: 0;
-    // padding: 0 100px;
     background: transparent;
-    // width: 100%;
-    // box-sizing: border-box;
     .logo{
         color: $primary;
         height: 50px;
@@ -72,6 +71,101 @@ header{
         font-size: 24px;
         cursor: pointer;
         display: none;
+    }
+}
+
+main{
+    #slider-home{
+        ul{
+            margin: 0 0 40px;
+            padding: 0;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            li{
+                list-style: none;
+                margin: 0 0 40px;
+                .slide{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    transition: transform 0.5s;
+                    transform: rotateY(90deg);
+                    transform-origin: left;
+                    .content{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        background: transparent;
+                        padding: 40px;
+                        width: fit-content;
+                        text-align: center;
+                        h1{
+                            font-size: 5vw;
+                            color: #fff;
+                            line-height: 1.3;
+                            font-weight: 400;
+                            font-family: "Amatic SC", cursive;
+                        }
+                        .subheading{
+                            font-weight: 300;
+                            font-size: 12px;
+                            letter-spacing: 4px;
+                            text-transform: uppercase;
+                            display: inline-block;
+                            color: #fff;
+                        }
+                    }
+                    img{
+                        object-fit: cover;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+
+                    }
+                }
+                input[type="radio"]{
+                    position: relative;
+                    z-index: 1;
+                    height: 15px;
+                    width: 15px;
+                    margin: 0 5px;
+                &:checked ~ .slide{
+                    transition: transform 0.5s;
+                    transform: rotateY(0deg);
+                    transform-origin: right;
+                    img{
+                        animation: animate 40s linear infinite;
+                    }
+                }
+                }
+
+            }
+        }
+        position: relative;
+        width: 100%;
+        height: calc(100vh - 50px);
+        overflow: hidden;
+    }
+}
+
+
+@keyframes animate
+{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
     }
 }
 

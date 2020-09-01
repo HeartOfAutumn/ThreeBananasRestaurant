@@ -1,11 +1,12 @@
 @media (max-width: 576px)
 {
     header{
+        z-index: 1;
         nav{
             position: absolute;
             width: 100%;
             // height: calc(100vh - 50px);
-            background: rgba(0, 0, 0, .03);
+            background: rgba(0, 0, 0, .5);
             top: 50px;
             left: -100%;
             transition: 0.5s;
@@ -15,6 +16,7 @@
                 li{
                     a{
                         border-bottom: 1px solid rgba(0, 0, 0, .2);
+                        color: #ffffff;
                     }
                 }
             }
