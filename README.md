@@ -32,11 +32,4 @@
 		9. Bài tập về jQuery		https://www.w3schools.com/jquery/jquery_quiz.asp	:heavy_check_mark:
 	+ **Ngày 3 - 5 (Thứ 7, CN, 2 ngày 16-18/08/2020)**: Tiến hành xây dụng trang web chính thức.
 
-Lịch trình sẽ có sự điều chỉnh cho phù hợp với thực tiễn (Lý luận phải đi đôi với thực tiễn, là coder chúng ta phải phải kiên quyết quét sạch chủ nghĩa cá nhân, 
-nâng cao đạo đức code dạo, bồi dưỡng tư tưởng tập thể, tinh thần đoàn kết, tính tổ chức và kỷ luật. Phải đi sâu đi sát thực tế, gần gũi với coder, 
-thật sự tôn trọng và phát huy quyền làm chủ tập thể của code. Phải cố gắng học tập, rèn luyện, nâng cao trình độ hiểu biết để làm tốt mọi nhiệm vụ.)
-
-Ký tên: Tổng giám đốc **Ngô Minh Thu** - Keep it simple stupid (KISS)
-
-
 	
